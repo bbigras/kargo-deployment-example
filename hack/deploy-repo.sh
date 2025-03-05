@@ -1,5 +1,5 @@
 #!/bin/bash
-repoURL="https://github.com/christianh814/kargo-deployment-example/bootstrap"
+repoURL="https://github.com/bbigras/kargo-deployment-example/bootstrap"
 
 ##
 # Make sure the right environment variables are set
@@ -45,7 +45,7 @@ spec:
         value: "${KARGO_GH_USERNAME}"
         version: "v1"
       - key: "/data/repoURL"
-        value: "https://github.com/christianh814/kargo-deployment-example"
+        value: "https://github.com/bbigras/kargo-deployment-example"
         version: "v1"
       - key: "/data/admin_password"
         value: "${ARGOCD_ADMIN_PASSWORD}"

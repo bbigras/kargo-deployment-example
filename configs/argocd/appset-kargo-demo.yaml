@@ -20,7 +20,7 @@ spec:
     spec:
       project: tenants
       source:
-        repoURL: https://github.com/christianh814/kargo-deployment-example
+        repoURL: https://github.com/bbigras/kargo-deployment-example
         targetRevision: stage/{{stage}}
         path: ./
       destination:

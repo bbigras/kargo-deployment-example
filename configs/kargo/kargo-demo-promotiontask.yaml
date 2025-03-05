@@ -9,7 +9,7 @@ metadata:
 spec:
   vars:
   - name: repoURL
-    value: https://github.com/christianh814/kargo-deployment-example
+    value: https://github.com/bbigras/kargo-deployment-example
   - name: sourceBranch
     value: main
   - name: targetBranch

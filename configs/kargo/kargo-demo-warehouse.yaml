@@ -8,7 +8,7 @@ metadata:
 spec:
   subscriptions:
   - git:
-      repoURL: https://github.com/christianh814/kargo-deployment-example
+      repoURL: https://github.com/bbigras/kargo-deployment-example
       branch: main
       includePaths:
         - app/

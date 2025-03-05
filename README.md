@@ -5,7 +5,7 @@ Just an example, if you're not well versed in Argo CD and/or Kustomize, you WILL
 ## Deploy
 
 ```shell
-until kustomize build --enable-helm https://github.com/christianh814/kargo-deployment-example/bootstrap | kubectl apply -f  - ; do sleep 3; done
+until kustomize build --enable-helm https://github.com/bbigras/kargo-deployment-example/bootstrap | kubectl apply -f  - ; do sleep 3; done
 ```
 
 ## External Secret 
@@ -35,7 +35,7 @@ spec:
         value: "${KARGO_GH_USERNAME}"
         version: "v1"
       - key: "/data/repoURL"
-        value: "https://github.com/christianh814/kargo-deployment-example"
+        value: "https://github.com/bbigras/kargo-deployment-example"
         version: "v1"
       - key: "/data/admin_password"
         value: "${ARGOCD_ADMIN_PASSWORD}"

@@ -5,9 +5,9 @@ resources:
 - ../system/nginx
 - ../system/external-secrets
 - ../system/argocd
-- https://raw.githubusercontent.com/christianh814/kargo-deployment-example/refs/heads/main/configs/argocd/appproject-system.yaml
-- https://raw.githubusercontent.com/christianh814/kargo-deployment-example/refs/heads/main/configs/argocd/appproject-config.yaml
-- https://raw.githubusercontent.com/christianh814/kargo-deployment-example/refs/heads/main/configs/argocd/appproject-tenants.yaml
+- https://raw.githubusercontent.com/bbigras/kargo-deployment-example/refs/heads/main/configs/argocd/appproject-system.yaml
+- https://raw.githubusercontent.com/bbigras/kargo-deployment-example/refs/heads/main/configs/argocd/appproject-config.yaml
+- https://raw.githubusercontent.com/bbigras/kargo-deployment-example/refs/heads/main/configs/argocd/appproject-tenants.yaml
 - app-of-apps.yaml
 
 sortOptions:

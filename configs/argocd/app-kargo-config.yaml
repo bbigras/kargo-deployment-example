@@ -8,7 +8,7 @@ metadata:
 spec:
   project: config
   source:
-    repoURL: https://github.com/christianh814/kargo-deployment-example
+    repoURL: https://github.com/bbigras/kargo-deployment-example
     targetRevision: main
     path: configs/kargo
   destination:

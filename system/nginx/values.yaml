@@ -3,8 +3,6 @@ controller:
   extraArgs:
     enable-ssl-passthrough: ""
   hostNetwork: true
-  nodeSelector:
-    nginx: ingresshost
   service:
     externalTrafficPolicy: ""
     type: ClusterIP
